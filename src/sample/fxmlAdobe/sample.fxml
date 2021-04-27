@@ -31,7 +31,7 @@
             </Text>
             <HBox alignment="CENTER_RIGHT" spacing="7.0" HBox.hgrow="ALWAYS">
                <children>
-                  <JFXButton style="-fx-background-color: white; -fx-background-radius: 50 50 50 50;" text="Cart">
+                  <JFXButton fx:id="cartBtn" onAction="#cartItems" style="-fx-background-color: white; -fx-background-radius: 50 50 50 50;" text="Cart">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>

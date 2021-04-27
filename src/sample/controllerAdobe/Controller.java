@@ -2,6 +2,8 @@ package sample.controllerAdobe;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -79,12 +81,11 @@ public class Controller implements Initializable {
         stage.showAndWait();
     }
 
-
-@Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-
-    dishSign.getItems().addAll("Foil","Fancy Plate");
-    packageStyle.getItems().addAll("French style","American style");
-    }
+    @Override
+    public void initialize(URL Location, ResourceBundle resources) {
+//    ObservableList<String> list = FXCollections.observableArrayList("Foil","Fancy plate");
+//    dishSign.setItems(list);
+//    ObservableList<String> list1 = FXCollections.observableArrayList("French style","African style");
+//    packageStyle.setItems(list1);
+  }
 }

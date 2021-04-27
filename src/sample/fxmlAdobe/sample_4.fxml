@@ -34,11 +34,11 @@
             </HBox>
             <HBox alignment="CENTER" prefHeight="10.0" prefWidth="116.0">
                <children>
-                  <JFXComboBox fx:id="dishSign" prefHeight="25.0" prefWidth="273.0" />
+                  <JFXComboBox fx:id="dishSign" labelFloat="true" prefHeight="25.0" prefWidth="273.0" promptText="Dish signature" />
                </children>
             </HBox>
             <HBox alignment="CENTER" layoutX="10.0" layoutY="694.0" prefHeight="10.0" prefWidth="116.0" />
-            <JFXComboBox fx:id="packageStyle" prefHeight="25.0" prefWidth="275.0" />
+            <JFXComboBox fx:id="packageStyle" labelFloat="true" prefHeight="25.0" prefWidth="275.0" promptText="Package style" />
          </children>
       </VBox>
    </children>
